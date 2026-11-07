@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset and downloaded data
+data/
+dataset/
+chest_xray/
+kaggle/
+*.zip
+
+# Model checkpoints and generated outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+outputs/
+runs/
+
+# Credentials and secrets
+kaggle.json
+.env
+.env.*
+secrets/
